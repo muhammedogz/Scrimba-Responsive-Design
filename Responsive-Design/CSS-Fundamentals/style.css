@@ -34,6 +34,13 @@ span {
 
 a {
     color: #ff8000;
+    font-weight: bold;
+    color: black;
+    background: rgb(228, 228, 16);
+    width: 100px;
+    color: #104c90;
+    padding: 20px;
+    display: inline-block;
 }
 
 a:hover, a:focus {
@@ -45,4 +52,8 @@ a:hover, a:focus {
     width: 500px;
     background-color: #f1f1f1;
     margin: 0 auto;
+}
+
+.button {
+    
 }
