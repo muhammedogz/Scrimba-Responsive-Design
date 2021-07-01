@@ -11,6 +11,10 @@ header {
     text-align: center;
 }
 
+a {
+    font-weight: bold;
+}
+
 #section-1 {
     background: black;
     padding: 25px;
