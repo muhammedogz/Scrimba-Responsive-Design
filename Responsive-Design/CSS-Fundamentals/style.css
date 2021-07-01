@@ -33,7 +33,6 @@ span {
 }
 
 a {
-    margin-left: 25px;
     color: #ff8000;
 }
 
@@ -42,6 +41,7 @@ a:hover, a:focus {
 }
 
 .container {
+    padding: 25px;
     width: 500px;
     background-color: #f1f1f1;
     margin: 0 auto;
