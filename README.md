@@ -9,7 +9,7 @@ This course teaches, how to obtain responsive web design principles with example
 ### CSS Fundamentals
 
 This is the first module of Responsive Design Course. It teaches margin, padding, text properties and fonts.\
-There is some projects from this module that I completed.\
+There is some projects from this module that I completed.
 
 - Practice Time -> [Live Demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/CSS-Fundamentals/Practice-Time/)
 - Compound Practice -> [Live Demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/CSS-Fundamentals/Compound-Practice/compound.html)
