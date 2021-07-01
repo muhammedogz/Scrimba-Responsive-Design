@@ -11,47 +11,40 @@ header {
     text-align: center;
 }
 
-a {
+.btn {
     font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
 }
 
-#section-1 {
-    background: black;
-    padding: 25px;
-    color: white;
-    text-align: left;
+.btn:hover, 
+.btn:focus {
+    background-color: purple;
 }
 
-#section-1 a {
+.btn-accent {
     background-color: yellow;
     color: black;
-    text-decoration: none;
-    padding: 20px;
-    display: inline-block;
 }
 
-#section-1 a:hover, #section-1 a:focus {
-    color: purple;
-}
-
-#section-1 span {
-    color: orange;
-    text-decoration: underline;
-}
-
-#section-2 {
-    padding: 25px;
-    text-align: left;
-}
-
-#section-2 a {
+.btn-dark {
     background-color: black;
     color: yellow;
-    padding: 20px;
-    text-decoration: none;
-    display: inline-block;
 }
 
-#section-2 a:hover, #section-1 a:focus {
-    color: purple;
+.sec {
+    text-align: left;
+    padding: 25px;
+}
+
+.sec-one {
+    background: black;
+    color: white;
+
+}
+
+.sec-one span {
+    color: orange;
+    text-decoration: underline;
 }
