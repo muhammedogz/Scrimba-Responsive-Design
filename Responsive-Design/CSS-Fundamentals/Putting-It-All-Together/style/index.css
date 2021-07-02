@@ -1,9 +1,9 @@
 body, h1 {
-    width: 750px;
-    margin: 0 auto;
+    margin: 0;
 }
 
-.h-one {
+
+header {
     padding: 45px;
     font-size: 36px;
     background: #2e354f;
@@ -16,16 +16,22 @@ body, h1 {
 }
 
 img {
-    width: 620px;
+    width: 500px;
 }
 
 p {
     font-size: 18px;
 }
 
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
 .section-one {
     background: #fff;
     padding: 45px;
+    border: 20px solid darkblue;
 }
 
 .link {
