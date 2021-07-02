@@ -1,7 +1,64 @@
-body {
+body, h1 {
+    width: 750px;
     margin: 0 auto;
+}
+
+.h-one {
+    padding: 45px;
+    font-size: 36px;
+    background: #2e354f;
+    color: #fff;
+}
+
+.h-two {
+    font-size: 24px;
+    color: #ef5839;
 }
 
 img {
     width: 620px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.section-one {
+    background: #fff;
+    padding: 45px;
+}
+
+.link {
+    color: #ef5839;
+}
+
+.white-strong {
+    color: #fff;
+}
+
+.section-two {
+    padding: 45px;
+    background: #2e354f;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: lightblue;
+}
+
+.btn-colorful {
+    background: #ef5839;
+    color: #fff;
+}
+
+.btn-white {
+    background: #fff;
+    color: #000;
 }
