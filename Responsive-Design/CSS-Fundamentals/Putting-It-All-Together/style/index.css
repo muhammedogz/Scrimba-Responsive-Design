@@ -25,14 +25,13 @@ p {
 }
 
 .container {
-    width: 620px;
+    width: 50%;
     margin: 0 auto;
 }
 
 .section-one {
     background: #fff;
     padding: 45px;
-    border: 20px solid darkblue;
 }
 
 .link {
