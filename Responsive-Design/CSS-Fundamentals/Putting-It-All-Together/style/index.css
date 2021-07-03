@@ -17,7 +17,7 @@ header {
 }
 
 img {
-    width: 70%;
+    width: 100%;
 }
 
 p {
@@ -25,7 +25,8 @@ p {
 }
 
 .container {
-    width: 75%;
+    width: 50%;
+    max-width: 620px;
     margin: 0 auto;
 }
 
