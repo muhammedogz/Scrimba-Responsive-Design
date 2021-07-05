@@ -5,6 +5,7 @@ Projects from Scrimba Courses.
 ## Responsive Design Course
 
 This course teaches, how to obtain responsive web design principles with examples.\
+Also part of Front-end developer path\
 [Course Link](https://scrimba.com/learn/responsive)
 
 ### CSS Fundamentals
