@@ -33,13 +33,23 @@ img {
     display: flex;
     border: 2px solid red;
     margin: 1em 0;
-    
 }
 
 .col {
     border: 2px solid yellow;
     margin: 1%;
-    
+}
+
+.col-1 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 75%;
 }
 
 .card {
@@ -47,6 +57,7 @@ img {
     color: #fff;
     padding: .5em;
 }
+
 
 .orange {
     color: #b7832f;
