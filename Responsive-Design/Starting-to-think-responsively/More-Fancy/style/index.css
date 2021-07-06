@@ -32,6 +32,7 @@ img {
 .columns {
     display: flex;
     border: 2px solid red;
+    align-items: flex-start;
     margin: 1em 0;
 }
 
