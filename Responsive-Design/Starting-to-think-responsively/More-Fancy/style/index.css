@@ -1,12 +1,45 @@
-body, h1 {
+body{
+    font-size: 1.125rem;
     margin: 0;
 }
 
-header {
-    background: #fec4f7;
+h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 img {
-    width: 20%;
-    
+    max-width: 100%;
 }
+
+.orange {
+    color: #b7832f;
+}
+
+.container {
+    /* background-color: #fec4f7; */
+    max-width: 980px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    border: 2px solid red;
+    margin: 1% 0;
+}
+
+.col {
+    border: 2px solid yellow;
+    margin: 1%;
+}
+
+.card {
+    background: #312614;
+    color: #fff;
+}
+
