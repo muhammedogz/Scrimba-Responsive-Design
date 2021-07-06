@@ -1,7 +1,10 @@
-body{
+body {
     font-size: 1.125rem;
-    margin: 0;
     color: #707070;
+}
+
+body, h1, h2, p {
+    margin: 0;
 }
 
 h1 {
@@ -27,17 +30,18 @@ img {
     max-width: 980px;
     width: 90%;
     margin: 0 auto;
+    background-color: lightpink;
 }
 
 .columns {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: flex-start;
     margin: 1em 0;
 }
 
 .col {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     margin: 1%;
 }
 
