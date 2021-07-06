@@ -1,11 +1,13 @@
 body{
     font-size: 1.125rem;
     margin: 0;
+    color: #707070;
 }
 
 h1 {
-    margin: 0;
     font-size: 3rem;
+    text-align: center;
+    color: #212614;
 }
 
 h2 {
@@ -14,10 +16,6 @@ h2 {
 
 img {
     max-width: 100%;
-}
-
-.orange {
-    color: #b7832f;
 }
 
 .container {
@@ -41,5 +39,9 @@ img {
 .card {
     background: #312614;
     color: #fff;
+}
+
+.orange {
+    color: #b7832f;
 }
 
