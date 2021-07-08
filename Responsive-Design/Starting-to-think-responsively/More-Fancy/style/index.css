@@ -36,25 +36,26 @@ img {
 .columns {
     display: flex;
     /* border: 2px solid red; */
+    justify-content: space-between;
     align-items: flex-start;
     margin: 1em 0;
 }
 
-.col {
+/* .col { */
     /* border: 2px solid yellow; */
-    margin: 1%;
-}
+    /* margin: 1%; */
+/* } */
 
 .col-1 {
-    width: 25%;
+    width: 20%;
 }
 
 .col-2 {
-    width: 50%;
+    width: 45%;
 }
 
 .col-3 {
-    width: 75%;
+    width: 70%;
 }
 
 .card {
