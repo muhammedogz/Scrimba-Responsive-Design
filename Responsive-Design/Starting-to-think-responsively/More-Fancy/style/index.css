@@ -25,6 +25,12 @@ img {
     max-width: 100%;
 }
 
+@media (max-width: 500px) and (orientation: landscape) {
+    body {
+        background-color: yellow;
+    }
+}
+
 .container {
     /* background-color: #fec4f7; */
     max-width: 980px;
