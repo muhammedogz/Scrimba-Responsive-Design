@@ -25,12 +25,6 @@ img {
     max-width: 100%;
 }
 
-@media (max-width: 500px) and (orientation: landscape) {
-    body {
-        background-color: yellow;
-    }
-}
-
 .container {
     /* background-color: #fec4f7; */
     max-width: 980px;
@@ -72,5 +66,20 @@ img {
 
 .orange {
     color: #b7832f;
+}
+
+@media (max-width: 500px) and (orientation: landscape) {
+    body {
+        background-color: yellow;
+    }
+    .columns {
+        flex-direction: column;
+    }
+    .col {
+        width: 100%;
+    }
+    .card {
+        padding: 0;
+    }
 }
 
