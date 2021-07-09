@@ -3,8 +3,30 @@
     font-family: 'Lora', serif;
     font-family: 'Ubuntu', sans-serif;
  */
- 
+
 
 body {
-    background-color: purple;
+    background-color: #f8f8f8;
+}
+
+body, h1, h2 {
+    margin: 0;  
+}
+
+h1  {
+    font-family: 'Lora', serif;
+    font-size: 3.375rem;
+    color: #143774;
+}
+
+.sub {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    color: #1792D2;
+}
+
+header {
+    margin: 0 auto;
+    border: 2px solid blue;
+    text-align: center;
 }
