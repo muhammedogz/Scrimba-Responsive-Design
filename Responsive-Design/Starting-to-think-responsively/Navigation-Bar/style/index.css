@@ -9,6 +9,12 @@ body {
     background-color: #f8f8f8;
 }
 
+.container {
+    border: 2px solid green;
+    width: 90%;
+    margin: 1em auto;
+}
+
 body, h1, h2 {
     margin: 0;  
 }
@@ -26,7 +32,8 @@ h1  {
 }
 
 header {
-    margin: 0 auto;
     border: 2px solid blue;
+    width: 80%;
+    margin: 1em auto;
     text-align: center;
 }
