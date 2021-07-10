@@ -20,7 +20,7 @@ There is some projects from this module that I completed.
 ### Starting to think responsively
 
 This course aims to think responsively and adapt responsive design to web projects\
-Projects
+Projects from this module
 
 - More Fancy -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Starting-to-think-responsively/More-Fancy/)
 - Navigation Bar -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Starting-to-think-responsively/Navigation-Bar/)
