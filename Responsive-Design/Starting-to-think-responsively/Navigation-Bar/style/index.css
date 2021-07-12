@@ -37,3 +37,20 @@ header {
     margin: 1em auto;
     text-align: center;
 }
+
+ul, li {
+    display: flex;
+}
+
+li {
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+a {
+    color: yellow;
+}
+
+a::focus, a::hover {
+    color: green;
+}
