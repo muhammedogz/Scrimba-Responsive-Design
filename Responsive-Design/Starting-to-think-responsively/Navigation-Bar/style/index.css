@@ -2,7 +2,7 @@ body {
     background-color: #f8f8f8;
 }
 
-body, h1, h2 {
+body, h1, h2, header {
     margin: 0;  
 }
 
@@ -21,7 +21,7 @@ h1  {
 
 header {
     border: 2px solid #1792d2;
-    width: 80%;
+    padding: 2em 0;
     margin: 1em auto;
     text-align: center;
     background-color: palegoldenrod;
