@@ -6,11 +6,6 @@ body, h1, h2 {
     margin: 0;  
 }
 
-.container {
-    width: 90%;
-    margin: 1em auto;
-}
-
 h1  {
     font-family: 'Lora', serif;
     font-size: 3.375rem;
