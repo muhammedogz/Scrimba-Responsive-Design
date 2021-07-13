@@ -15,6 +15,7 @@ header {
 
 h1 {
     font-family: 'Lora', serif;
+    font-weight: 400;
     font-size: 3.375rem;
     color: #143774;
 }
