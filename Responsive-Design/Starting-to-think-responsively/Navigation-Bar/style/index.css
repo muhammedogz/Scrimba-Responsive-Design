@@ -38,13 +38,14 @@ header {
     text-align: center;
 }
 
-ul, li {
-    display: flex;
-}
-
-li {
+nav li {
     border: 2px solid black;
     margin: 0 auto;
+}
+
+nav ul {
+    border: 2px solid lightblue;
+    list-style: none;
 }
 
 a {
