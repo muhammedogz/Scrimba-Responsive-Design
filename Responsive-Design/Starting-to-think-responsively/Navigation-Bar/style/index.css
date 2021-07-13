@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f8f8;
+    background-color: palegoldenrod;
 }
 
 body, h1 {
@@ -24,7 +24,7 @@ header {
     padding: 2em 0;
     margin: 1em auto;
     text-align: center;
-    background-color: palegoldenrod;
+    background-color: #f8f8f8;
 }
 
 nav ul {
