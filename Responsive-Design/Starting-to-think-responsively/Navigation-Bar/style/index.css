@@ -20,18 +20,19 @@ h1  {
 .sub {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
+    font-weight: 700;
     color: #1792D2;
 }
 
 header {
-    /* border: 2px solid blue; */
+    border: 2px solid #1792d2;
     width: 80%;
     margin: 1em auto;
     text-align: center;
 }
 
 nav ul {
-    /* border: 2px solid lightblue; */
+    border: 2px solid #1792d2;
     list-style: none;
     padding: 0;
     display: flex;
@@ -39,14 +40,16 @@ nav ul {
 }
 
 nav li {
-    /* border: 2px solid black; */
+    /* border: 2px solid #1792d2; */
     margin: 0 1em;
 }
 
-a {
-    color: yellow;
+nav a {
+    color: #707070;
+    text-decoration: none   ;
 }
 
-a::focus, a::hover {
+nav a:focus, nav a:hover {
     color: green;
+    text-decoration: underline;
 }
