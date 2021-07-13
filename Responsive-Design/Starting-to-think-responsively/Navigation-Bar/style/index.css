@@ -1,22 +1,14 @@
-/*  Fonts
-    -----
-    font-family: 'Lora', serif;
-    font-family: 'Ubuntu', sans-serif;
- */
-
-
 body {
     background-color: #f8f8f8;
 }
 
-.container {
-    border: 2px solid green;
-    width: 90%;
-    margin: 1em auto;
-}
-
 body, h1, h2 {
     margin: 0;  
+}
+
+.container {
+    width: 90%;
+    margin: 1em auto;
 }
 
 h1  {
@@ -32,20 +24,23 @@ h1  {
 }
 
 header {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 80%;
     margin: 1em auto;
     text-align: center;
 }
 
-nav li {
-    border: 2px solid black;
-    margin: 0 auto;
+nav ul {
+    /* border: 2px solid lightblue; */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-nav ul {
-    border: 2px solid lightblue;
-    list-style: none;
+nav li {
+    /* border: 2px solid black; */
+    margin: 0 1em;
 }
 
 a {
