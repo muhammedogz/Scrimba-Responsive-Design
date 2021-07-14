@@ -3,7 +3,7 @@ body {
     background-color: palegoldenrod;
 }
 
-body, h1 {
+body, h1, .sub {
     margin: 0;  
 }
 
@@ -19,7 +19,7 @@ body, h1 {
 }
 
 header {
-    border: 2px solid #1792d2;
+    /* border: 2px solid #1792d2; */
     padding: 2em 0;
     text-align: center;
     background-color: #f8f8f8;
@@ -39,7 +39,8 @@ h1 {
 }
 
 nav ul {
-    border: 2px solid #1792d2;
+    /* border: 2px solid #1792d2; */
+    
     /* remove bullet points from the list */
     list-style: none;
     padding: 0;
