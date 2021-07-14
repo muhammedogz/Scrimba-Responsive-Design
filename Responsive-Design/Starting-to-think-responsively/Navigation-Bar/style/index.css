@@ -47,6 +47,7 @@ nav a {
     color: #707070;
     text-decoration: none;
     font-weight: 700;
+     
 }
 
 nav a:focus, nav a:hover {
@@ -54,5 +55,5 @@ nav a:focus, nav a:hover {
 }
 
 .current-page {
-    text-decoration: underline;
+    border-bottom: 1px solid blue;
 }
