@@ -45,7 +45,8 @@ nav li {
 
 nav a {
     color: #707070;
-    text-decoration: none   ;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 nav a:focus, nav a:hover {
