@@ -51,5 +51,8 @@ nav a {
 
 nav a:focus, nav a:hover {
     color: green;
-    text-decoration: underline #143774;
+}
+
+.current-page {
+    text-decoration: underline;
 }
