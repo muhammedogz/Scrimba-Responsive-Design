@@ -57,3 +57,7 @@ nav a:focus, nav a:hover {
 .current-page {
     border-bottom: 1px solid blue;
 }
+
+.current-page:hover {
+    color: #707070;
+}
