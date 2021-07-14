@@ -10,7 +10,10 @@ body, h1 {
     border: 2px solid lightblue;
     width: 90%;
     max-width: 980px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+
+.container-nav {
     display: flex;
 }
 
