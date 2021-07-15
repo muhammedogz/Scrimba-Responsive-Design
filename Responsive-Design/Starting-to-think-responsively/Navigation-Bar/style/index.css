@@ -45,6 +45,7 @@ nav ul {
     /* remove bullet points from the list */
     list-style: none;
     padding: 0;
+
     /* convert flex and center all list items */
     display: flex;
     justify-content: center;
@@ -52,6 +53,7 @@ nav ul {
 
 nav li {
     /* border: 2px solid #1792d2; */
+    
     /* bring space left and right to all list items */
     margin: 0 1em;
 }
