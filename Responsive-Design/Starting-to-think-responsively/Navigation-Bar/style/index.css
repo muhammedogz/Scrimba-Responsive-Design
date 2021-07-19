@@ -15,6 +15,7 @@ body, h1, .sub {
     margin: 0 auto; 
 }
 
+/* switch navigation bar to right */
 .container-nav {
     display: flex;
     justify-content: space-around;
