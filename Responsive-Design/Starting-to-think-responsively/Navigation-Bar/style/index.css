@@ -77,3 +77,9 @@ nav a:focus, nav a:hover {
 .current-page:hover, .current-page:focus {
     color: #707070;
 }
+
+@media (max-width: 500px) {
+    .container-nav {
+        display: block;
+    }
+}
