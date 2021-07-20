@@ -25,4 +25,4 @@ This course aims to think responsively and adapt responsive design to web projec
 Projects from this module
 
 - More Fancy -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Starting-to-think-responsively/More-Fancy/)
-- Navigation Bar -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Starting-to-think-responsively/Navigation-Bar/)
+- Living the Simple Life -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Starting-to-think-responsively/Living-The-Simple-Life/)
