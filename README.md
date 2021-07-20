@@ -26,3 +26,4 @@ Projects from this module
 
 - More Fancy -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Starting-to-think-responsively/More-Fancy/)
 - Living the Simple Life -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Starting-to-think-responsively/Living-The-Simple-Life/)
+    A complete responsive blog site.
