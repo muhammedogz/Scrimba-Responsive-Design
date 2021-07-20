@@ -78,8 +78,14 @@ nav a:focus, nav a:hover {
     color: #707070;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 680px) {
     .container-nav {
         display: block;
+    }
+    nav ul {
+        display: block;
+    }
+    nav li {
+        margin-bottom: 1em;
     }
 }
