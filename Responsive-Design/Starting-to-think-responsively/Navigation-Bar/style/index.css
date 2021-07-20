@@ -80,11 +80,11 @@ nav a:focus, nav a:hover {
 
 @media (max-width: 680px) {
     .container-nav {
-        display: block;
+        flex-direction: column;
     }
     nav ul {
-        display: block;
-    }
+        flex-direction: column;
+    }  
     nav li {
         margin-bottom: 1em;
     }
