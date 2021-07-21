@@ -89,3 +89,9 @@ nav a:focus, nav a:hover {
         margin-bottom: 1em;
     }
 }
+
+.main {
+    border: 2px solid yellow;
+    max-width: 90%;
+    margin: 0 auto;
+}
