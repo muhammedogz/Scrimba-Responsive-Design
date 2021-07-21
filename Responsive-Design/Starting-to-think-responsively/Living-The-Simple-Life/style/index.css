@@ -92,7 +92,8 @@ nav a:focus, nav a:hover {
 
 .main {
     border: 2px solid yellow;
-    max-width: 90%;
+    width: 90%;
+    max-width: 980px;
     margin: 0 auto;
 }
 
