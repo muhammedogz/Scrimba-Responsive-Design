@@ -97,6 +97,15 @@ nav a:focus, nav a:hover {
 }
 
 .wall {
+    width: 25%;
+}
+
+.sub-section {
+    display: flex;
+    margin: 2em;
+}
+
+.left-img {
     width: 50%;
-    
+    margin: 0;
 }
