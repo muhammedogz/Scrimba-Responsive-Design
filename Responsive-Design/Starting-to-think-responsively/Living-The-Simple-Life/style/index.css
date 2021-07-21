@@ -90,11 +90,22 @@ nav a:focus, nav a:hover {
     }
 }
 
+main {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 980px;
+    justify-content: space-around;
+}
+
 .main {
     border: 2px solid yellow;
-    width: 90%;
-    max-width: 980px;
-    margin: 0 auto;
+    width: 85%;
+}
+
+.sidebar {
+    width: 100%;
+
 }
 
 .wall {
