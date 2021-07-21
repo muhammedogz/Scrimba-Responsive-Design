@@ -95,3 +95,8 @@ nav a:focus, nav a:hover {
     max-width: 90%;
     margin: 0 auto;
 }
+
+.wall {
+    width: 50%;
+    
+}
