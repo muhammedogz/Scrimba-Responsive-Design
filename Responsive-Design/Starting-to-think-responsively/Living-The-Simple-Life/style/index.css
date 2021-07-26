@@ -90,7 +90,24 @@ nav a:focus, nav a:hover {
     }
 }
 
+img {
+    width: 10%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 980px;
+    justify-content: space-between;
+
+    border: 2px solid blue;
+}
+
+main {
+    margin-right: 4em;
     
+}
 
 footer {
     background-color: #143774;
