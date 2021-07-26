@@ -145,6 +145,18 @@ main {
     margin: 0 0 2em 0;
 }
 
+.sidebar {
+    text-align: center;
+}
+
+.sidebar-widget {
+    background-color: #EBEBEB;
+}
+
+.widget-image {
+    width: 50%;
+}
+
 
 footer {
     background-color: #143774;
