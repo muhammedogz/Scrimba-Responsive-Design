@@ -1,7 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    
+    font-weight: 300;
     font-size: 1.125rem;
 }
 
@@ -148,6 +147,7 @@ main {
 .article-read-more:hover, .article-read-more:focus {
     color: rebeccapurple;
 }
+
 
 .article-recent  {
     display: flex;
