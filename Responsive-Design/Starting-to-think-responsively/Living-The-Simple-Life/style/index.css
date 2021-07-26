@@ -106,8 +106,45 @@ img {
 
 main {
     margin-right: 4em;
-    
+    width: 450%;
 }
+
+.article-featured {
+    padding: 0 2em 2em 0;
+    border-bottom: 2px solid gray;
+    margin-bottom: 2em;
+}
+
+.article-image {
+    width: 90%;
+}
+
+.article-title {
+    color: #143774;
+    margin: 0;
+}
+
+.article-info {
+    color: #707070;
+    font-size: 0.7em;
+}
+
+.article-read-more {
+    color: #1792D2;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: .7em;
+}
+
+.article-read-more:hover, .article-read-more:focus {
+    color: rebeccapurple;
+}
+
+.article-recent  {
+    display: flex;
+    margin: 0 0 2em 0;
+}
+
 
 footer {
     background-color: #143774;
