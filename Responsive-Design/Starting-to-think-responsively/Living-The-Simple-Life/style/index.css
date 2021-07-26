@@ -1,7 +1,8 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
-    background-color: palegoldenrod;
+    
+    font-size: 1.125rem;
 }
 
 body, h1, .sub {
