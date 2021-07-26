@@ -129,6 +129,10 @@ main {
     margin: 0;
 }
 
+.article-strong {
+    font-size: 700;
+}
+
 .article-info,
 .article-read-more {
     font-size: .875rem;
