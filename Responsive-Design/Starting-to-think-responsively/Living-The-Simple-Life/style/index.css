@@ -144,8 +144,10 @@ main {
     font-weight: 700;
 }
 
-.article-read-more:hover, .article-read-more:focus {
+.article-read-more:hover, 
+.article-read-more:focus {
     color: rebeccapurple;
+    text-decoration: underline;
 }
 
 
