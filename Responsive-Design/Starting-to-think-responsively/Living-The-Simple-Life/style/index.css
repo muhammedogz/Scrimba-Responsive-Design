@@ -8,6 +8,11 @@ body, h1, .sub {
     margin: 0;  
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .container {
     border: 2px solid lightblue;
     width: 90%;
@@ -38,6 +43,7 @@ h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
     color: #143774;
+    margin: 0;
 }
 
 .sub {
@@ -84,7 +90,7 @@ nav a:focus, nav a:hover {
 }
 
 @media (max-width: 680px) {
-    .container-nav {
+    .container-nav, .wrapper {
         flex-direction: column;
     }
     nav ul {
@@ -93,10 +99,6 @@ nav a:focus, nav a:hover {
     nav li {
         margin-bottom: 1em;
     }
-}
-
-img {
-    width: 10%;
 }
 
 .wrapper {
@@ -110,8 +112,11 @@ img {
 }
 
 main {
-    margin-right: 4em;
-    width: 450%;
+    width: 75%;
+}
+
+aside {
+    width: 20%;
 }
 
 .article-featured {
