@@ -90,7 +90,7 @@ nav a:focus, nav a:hover {
     }
 }
 
-main {
+.wrapper {
     display: flex;
     width: 90%;
     margin: 0 auto;
