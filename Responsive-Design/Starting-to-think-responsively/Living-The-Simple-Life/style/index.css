@@ -130,16 +130,19 @@ main {
     margin: 0;
 }
 
+.article-info,
+.article-read-more {
+    font-size: .875rem;
+}
+
 .article-info {
     color: #707070;
-    font-size: 0.7em;
 }
 
 .article-read-more {
     color: #1792D2;
     text-decoration: none;
     font-weight: 700;
-    font-size: .7em;
 }
 
 .article-read-more:hover, .article-read-more:focus {
