@@ -150,6 +150,11 @@ nav a:focus, nav a:hover {
     margin: 0 0 2em 0;
 }
 
+.article-recent-secondary {
+    padding: 0 2em 0 0;
+    text-align: right;
+}
+
 .sidebar {
     text-align: center;
 }
@@ -193,5 +198,9 @@ footer p {
 
     aside {
         width: 20%;
+    }
+
+    .article-recent-secondary {
+        text-align: left;
     }
 }
