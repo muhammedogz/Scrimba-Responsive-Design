@@ -204,4 +204,12 @@ footer p {
     .article-recent-secondary {
         text-align: left;
     }
+
+    .article-featured {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
 }
