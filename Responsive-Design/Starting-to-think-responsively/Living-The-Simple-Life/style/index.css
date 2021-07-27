@@ -103,29 +103,6 @@ nav a:focus, nav a:hover {
     border: 2px solid blue;
 }
 
-@media (min-width: 680px) {
-    .container-nav, .wrapper {
-        flex-direction: row;
-    }
-    nav ul {
-        flex-direction: row;
-    }  
-    nav li {
-        margin-bottom: 0 1em;
-    }
-
-    main {
-        width: 75%;
-    }
-
-    aside {
-        width: 20%;
-    }
-}
-
-
-
-
 .article-featured {
     padding: 0 2em 2em 0;
     border-bottom: 2px solid gray;
@@ -169,6 +146,7 @@ nav a:focus, nav a:hover {
 
 .article-recent  {
     display: flex;
+    flex-direction: column;
     margin: 0 0 2em 0;
 }
 
@@ -195,4 +173,25 @@ footer {
 footer p {
     margin: 1em;
     color: white;
+}
+
+
+@media (min-width: 680px) {
+    .container-nav, .wrapper, .article-recent {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: row;
+    }  
+    nav li {
+        margin-bottom: 0 1em;
+    }
+
+    main {
+        width: 75%;
+    }
+
+    aside {
+        width: 20%;
+    }
 }
