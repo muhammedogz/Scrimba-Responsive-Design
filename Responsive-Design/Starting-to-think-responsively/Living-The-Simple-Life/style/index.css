@@ -53,6 +53,8 @@ header {
     margin: 0;
 }
 
+/* Navigation Bar */
+
 nav ul {
     /* border: 2px solid #1792d2; */
 
@@ -91,6 +93,22 @@ nav a:focus, nav a:hover {
     color: #707070;
 }
 
+/* nav bar media query */
+
+/* Designed for mobile, media query converts to desktop */
+@media (min-width: 680px) {
+    .container-nav, .wrapper, .article-recent {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: row;
+    }  
+    nav li {
+        margin-bottom: 0 1em;
+    }
+}
+
+/* Main content Layout */
 
 .wrapper {
     width: 90%;
@@ -182,14 +200,8 @@ footer p {
 
 
 @media (min-width: 680px) {
-    .container-nav, .wrapper, .article-recent {
+    .wrapper, .article-recent {
         flex-direction: row;
-    }
-    nav ul {
-        flex-direction: row;
-    }  
-    nav li {
-        margin-bottom: 0 1em;
     }
 
     main {
