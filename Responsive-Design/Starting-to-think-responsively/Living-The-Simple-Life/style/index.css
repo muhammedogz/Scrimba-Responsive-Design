@@ -246,6 +246,10 @@ nav a:focus, nav a:hover {
     padding: 0;
 }
 
+.widget-title {
+    text-align: center;
+}
+
 /* footer */
 
 footer {
