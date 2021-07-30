@@ -4,13 +4,34 @@ body {
     font-size: 1.125rem;
 }
 
-body, h1, .sub {
+body {
     margin: 0;  
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #143774;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 img {
     max-width: 100%;
     display: block;
+}
+
+header {
+    /* border: 2px solid #1792d2; */
+    padding: 2em 0;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin: 0 0 2em 0;
 }
 
 .container {
@@ -27,31 +48,12 @@ img {
     justify-content: space-around;
 }
 
-header {
-    /* border: 2px solid #1792d2; */
-    padding: 2em 0;
-    text-align: center;
-    background-color: #f8f8f8;
-    margin: 0 0 2em 0;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    color: #143774;
-    margin: 0;
-}
 
 .sub {
     font-size: .75rem;
     font-weight: 700;
     color: #1792D2;
+    margin: 0;
 }
 
 nav ul {
