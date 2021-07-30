@@ -188,6 +188,26 @@ nav a:focus, nav a:hover {
         flex-direction: column;
     }
     
+    .article-image {
+        order: -1;
+    }
+
+    .article-info {
+        order: 0
+    }
+
+    .article-title {
+        order: 1;
+    }
+
+    .article-body {
+        order: 2;
+    }
+
+    .article-read-more {
+        order: 3;
+    }
+    
 }
 
 /* sidebar */
