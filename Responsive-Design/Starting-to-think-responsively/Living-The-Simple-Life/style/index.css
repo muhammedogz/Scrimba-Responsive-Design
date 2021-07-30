@@ -52,11 +52,11 @@ header {
     }
     
     main {
-        width: 75%;
+        width: 70%;
     }
 
     aside {
-        width: 20%;
+        width: 25%;
     }
 }
 
@@ -219,15 +219,27 @@ nav a:focus, nav a:hover {
 /* sidebar */
 
 .sidebar {
-    text-align: center;
+    text-align: left;
 }
 
 .sidebar-widget {
-    background-color: #9c1515;
+    border: 20px solid #efefef;
+    font-size: 0.825rem;
+    padding: 0 1em;
 }
 
 .widget-image {
     width: 50%;
+    margin: 2em auto;
+}
+
+.widget-recent-post {
+    border-bottom: 2px solid #707070;
+    margin-bottom: 1em;
+}
+
+.widget-recent-post-last {
+    border: none;
 }
 
 /* footer */
