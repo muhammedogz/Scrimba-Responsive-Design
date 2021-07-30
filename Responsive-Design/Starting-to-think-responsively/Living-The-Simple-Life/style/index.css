@@ -240,8 +240,10 @@ nav a:focus, nav a:hover {
     margin-bottom: 1em;
 }
 
-.widget-recent-post-last {
+.widget-recent-post:last-child {
     border: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* footer */
