@@ -57,6 +57,8 @@ header {
 
     aside {
         width: 25%;
+        min-width: 200px;
+        margin-left: 1em;
     }
 }
 
