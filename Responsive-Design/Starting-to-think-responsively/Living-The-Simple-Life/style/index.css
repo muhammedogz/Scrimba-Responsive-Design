@@ -23,6 +23,14 @@ img {
     display: block;
 }
 
+
+.image-full {
+    max-width: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2em;
+}
+
 /* layout */
 
 header {
