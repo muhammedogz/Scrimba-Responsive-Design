@@ -180,10 +180,16 @@ nav a:focus, nav a:hover {
 @media (min-width: 680px) {
     .article-recent {
         flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .article-recent-main {
+        width: 70%;
     }
 
     .article-recent-secondary {
         text-align: left;
+        width: 30%;
     }
 
     .article-featured {
