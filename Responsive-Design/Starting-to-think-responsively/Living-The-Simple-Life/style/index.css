@@ -207,6 +207,12 @@ nav a:focus, nav a:hover {
     .article-read-more {
         order: 3;
     }
+
+    .article-image {
+        width: 100%;
+        min-height: 250px;
+        object-fit: cover;
+    }
     
 }
 
