@@ -43,7 +43,7 @@ header {
 }
 
 .container {
-    border: 2px solid lightblue;
+    /* border: 2px solid lightblue; */
     width: 90%;
     max-width: 980px;
     margin: 0 auto; 
