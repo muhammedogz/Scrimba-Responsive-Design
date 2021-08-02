@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+header {
+    border: 2px solid blue;
+    width: 50%;
+}
+
+main {
+    border: 2px solid green;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+
+}
