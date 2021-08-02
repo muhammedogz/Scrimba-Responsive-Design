@@ -32,5 +32,5 @@ Projects from this module
 
 In this module, Instructor teaches, how to use some uncovered CSS properties and create a webinar page.\
 
-- BBQ Splash Page -> [live demo](Responsive-Design/Stepping-up-our-style/BBQ-Splash/index.html)
+- BBQ Splash Page -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Stepping-up-our-style/BBQ-Splash/index.html)
   
