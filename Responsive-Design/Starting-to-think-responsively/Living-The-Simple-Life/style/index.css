@@ -96,6 +96,8 @@ nav li {
 nav a {
     color: #707070;
     text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     font-weight: 700;   
 }
 
