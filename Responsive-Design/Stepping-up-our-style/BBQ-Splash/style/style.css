@@ -66,12 +66,13 @@ header {
 
 .top-info {
     color: #f18119;
+    margin: 0 auto;
     font-size: .625rem;
     font-weight: 900;
     text-transform: uppercase;
     order: -1;
     border-top: 10px solid #f18119;
-
+    border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
 }
 
 /* main */
