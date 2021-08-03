@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+image {
+    max-width: 100%;
+}
+
+/* typography */
+
+.card-title {
+    font-size: 28px;
+}
+
+.card-content,
+.card-time {
+    font-size: 16px;
+}
+
+.card-read-more {
+    font-size: 20px;
+}
+
+/* colors */ 
+
+.card-title {
+    color: #05cbe9;
+}
+
+.card-main {
+    border: 2px solid yellow;
+    background: #111d4a;
+}
+
+/* content */
+
+.container  {
+    display: flex;
+    
+}
