@@ -112,10 +112,12 @@ main {
     main {
         width: 50%;
         min-height: 100vh;
+        justify-content: center;
     }
 
     main {
-        
+        display: flex;
+        flex-direction: column;  
         border: none;
         padding: 2em;
     }
