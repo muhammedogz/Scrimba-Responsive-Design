@@ -42,6 +42,8 @@ h2 {
 .container  {
     width: 90%;
     margin: 0 auto;
+    justify-content: space-evenly;
+    max-width: 800px;
     background: #111d4a;
     color: #fff;
     display: flex;
@@ -101,5 +103,14 @@ h2 {
 @media (min-width: 600px) {
     .container {
         flex-direction: row;
+    }
+
+    .card-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-footer {
+        margin-top: auto;
     }
 }
