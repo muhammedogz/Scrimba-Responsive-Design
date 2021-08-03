@@ -5,17 +5,32 @@ body {
     color: #404040;
 }
 
+h1  {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.3125rem;
+}
+
+p {
+    font-size: .625rem;
+}
+
+strong {
+    font-weight: 700;
+}
+
 header {
     border: 2px solid blue;
-    width: 50%;
 }
 
 main {
     border: 2px solid green;
-    width: 50%;
 }
 
 .container {
     display: flex;
-
+    flex-direction: column;
 }
