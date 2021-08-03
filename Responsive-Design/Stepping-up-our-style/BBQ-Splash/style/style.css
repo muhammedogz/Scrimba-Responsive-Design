@@ -158,11 +158,17 @@ main > * {
 }
 
 .register-btn {
-    background-color: #f18119;
+    /* display: inline-block; */
+    background: linear-gradient(to left, #ff713b, #ffa51d);
     color: #fff;
+    cursor: pointer;
+    font-size: .625rem;
+    text-transform: uppercase;
+    font-weight: 900;
     border: none;
+    transition: all 500ms;
 }
 
 .register-btn:hover {
-    background-color: #404040;
+    color: black;
 }
