@@ -167,8 +167,10 @@ main > * {
     font-weight: 900;
     border: none;
     transition: all 500ms;
+    transform: scale(1);
 }
 
 .register-btn:hover {
     color: black;
+    transform: scale(1.2);
 }
