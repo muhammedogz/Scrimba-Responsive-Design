@@ -166,11 +166,12 @@ main > * {
     text-transform: uppercase;
     font-weight: 900;
     border: none;
-    transition: all 500ms;
+    transition: all 250ms;
     transform: scale(1);
 }
 
-.register-btn:hover {
+.register-btn:hover,
+.register-btn:focus {
     color: black;
     transform: scale(1.1);
 }
