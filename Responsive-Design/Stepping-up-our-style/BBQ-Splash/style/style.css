@@ -46,7 +46,7 @@ strong {
 
 header {
     background-color: #404040;
-    background-image: url("../Images/jon-tyson-kctt4tL1dkE-unsplash.jpg");
+    /* background-image: url("../Images/jon-tyson-kctt4tL1dkE-unsplash.jpg"); */
     color: #fff;
     background-size: cover;
     background-position: center;
@@ -112,12 +112,13 @@ main {
     main {
         width: 50%;
         min-height: 100vh;
-        justify-content: center;
+        justify-content: space-between;
     }
-
+    
     main {
         display: flex;
         flex-direction: column;  
+        justify-content: center;
         border: none;
         padding: 2em;
     }
