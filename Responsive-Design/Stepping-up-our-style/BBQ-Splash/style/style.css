@@ -13,6 +13,7 @@ h1  {
 
 h2 {
     font-size: 1.3125rem;
+    margin: 0;
 }
 
 p {
@@ -27,12 +28,13 @@ header {
     background-color: #404040;
     background-image: url("../Images/jon-tyson-kctt4tL1dkE-unsplash.jpg");
     color: #fff;
-    padding: 0 .25em 1em;
+    padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
 }
 
 main {
+    padding: 2em 1em;
     border: 2px solid green;
 }
 
@@ -68,6 +70,7 @@ main {
     color: #f18119;
     font-size: 1rem;
     font-weight: 900;
+    margin-top: 0;
     text-transform: uppercase;
 }
 
