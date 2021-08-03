@@ -84,3 +84,20 @@ main {
     margin-top: 0;
     text-transform: uppercase;
 }
+
+@media (min-width: 600px) {
+    .container {
+        flex-direction: row;
+    }
+
+    header {
+        width: 50%;
+    }
+
+    main {
+        width: 50%;
+        margin: auto 0;
+        border: none;
+        padding: 2em;
+    }
+}
