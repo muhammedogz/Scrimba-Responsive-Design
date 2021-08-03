@@ -28,7 +28,9 @@ header {
     background-image: url("../Images/jon-tyson-kctt4tL1dkE-unsplash.jpg");
     color: #fff;
     padding: 0 .25em 1em;
-    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+
 }
 
 main {
@@ -40,10 +42,15 @@ main {
     flex-direction: column;
 }
 
+.header-title {
+    order: 0;
+}
+
 .header-second {
     color: #f18119;
     font-size: 1.3125rem;
     font-weight: 900;
+    order: 1;
 }
 
 .top-info {
@@ -51,6 +58,7 @@ main {
     font-size: .625rem;
     font-weight: 900;
     text-transform: uppercase;
+    order: -1;
 }
 
 .main-second {
