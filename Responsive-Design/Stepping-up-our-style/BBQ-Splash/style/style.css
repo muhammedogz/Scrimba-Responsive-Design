@@ -46,7 +46,8 @@ strong {
 
 header {
     background-color: #404040;
-    /* background-image: url("../Images/jon-tyson-kctt4tL1dkE-unsplash.jpg"); */
+    background-image: url("../Images/jon-tyson-kctt4tL1dkE-unsplash.jpg"), linear-gradient(45deg,rgb(230, 209, 209), rgb(235, 30, 30));
+    background-blend-mode: multiply;
     color: #fff;
     background-size: cover;
     background-position: center;
