@@ -33,4 +33,13 @@ Projects from this module
 In this module, Instructor teaches, how to use some uncovered CSS properties and create a webinar page.\
 
 - BBQ Splash Page -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Stepping-up-our-style/BBQ-Splash/index.html)
+<<<<<<< HEAD
+=======
+
+### Taking Flexbox to the Next Level
+
+This module teaches advance flexbox techniques.
+
+- Card Component -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Taking-Flexbox-to-Next-Level/)
+>>>>>>> 813c9fa... Update readme.md
   
