@@ -132,3 +132,31 @@ main > * {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Form Styling */
+
+.register-form  {
+    border: 2px solid blue;
+    width: 80%;
+    max-width: 300px;
+}
+
+.register-form > * {
+    padding: 1em;
+    margin: 1em auto;
+}
+
+.register-form input,
+.register-form button {
+    width: 100%;
+}
+
+.register-btn {
+    background-color: #f18119;
+    color: #fff;
+    border: none;
+}
+
+.register-btn:hover {
+    background-color: #404040;
+}
