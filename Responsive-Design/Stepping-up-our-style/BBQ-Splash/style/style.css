@@ -149,6 +149,12 @@ main > * {
     font-family: inherit;
     text-align: inherit;
     border: 1px solid #404040;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+.register-form input:focus {
+    transform: scale(1.1);
 }
 
 .register-form input,
