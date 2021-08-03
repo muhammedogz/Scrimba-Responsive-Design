@@ -51,11 +51,10 @@ header {
     background-size: cover;
     background-position: center;
     margin: 0;
-    padding-bottom: 2em;
     color: #fff;
-    padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-height: 50vh;
 }
 
