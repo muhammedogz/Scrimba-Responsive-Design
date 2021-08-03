@@ -60,6 +60,8 @@ main {
     font-weight: 900;
     text-transform: uppercase;
     order: -1;
+    border-top: 10px solid #f18119;
+
 }
 
 .main-second {
