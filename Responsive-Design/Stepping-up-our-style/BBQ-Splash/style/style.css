@@ -24,10 +24,10 @@ strong {
 }
 
 header {
-    background-image: url("https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YmJxfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
-    color: #fff;
-    background-position: center;
     background-color: #404040;
+    background-image: url("../Images/jon-tyson-kctt4tL1dkE-unsplash.jpg");
+    padding: 0 .25em 1em;
+    color: #fff;
     border: 2px solid blue;
 }
 
