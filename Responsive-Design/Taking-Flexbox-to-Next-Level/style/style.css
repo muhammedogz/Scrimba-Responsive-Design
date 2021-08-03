@@ -25,10 +25,20 @@ image {
     font-size: 20px;
 }
 
-/* Content */ 
+/* colors */ 
 
+.card-title {
+    color: #05cbe9;
+}
 
+.card-main {
+    border: 2px solid yellow;
+    background: #111d4a;
+}
+
+/* content */
 
 .container  {
     display: flex;
+    
 }
