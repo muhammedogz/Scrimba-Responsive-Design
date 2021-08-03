@@ -3,8 +3,11 @@
 }
 
 body {
+    min-height: 100vh;
     margin: 0;
     font-family: 'Blinker', sans-serif;
+    display: flex;
+
 }
 
 h1,
@@ -33,15 +36,12 @@ h2 {
     color: #05cbe9;
 }
 
-.card-main {
-    border: 2px solid yellow;
-}
 
 /* content */
 
 .container  {
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
     justify-content: space-evenly;
     max-width: 800px;
     background: #111d4a;
