@@ -44,6 +44,8 @@ header {
     background-color: #404040;
     background-image: url("../Images/jon-tyson-kctt4tL1dkE-unsplash.jpg");
     color: #fff;
+    background-size: cover;
+    background-position: center;
     padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
@@ -85,7 +87,19 @@ main {
     text-transform: uppercase;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
+    body {
+        font-size: 1.125rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
     .container {
         flex-direction: row;
     }
