@@ -5,3 +5,30 @@
 body {
     margin: 0;
 }
+
+image {
+    max-width: 100%;
+}
+
+/* typography */
+
+.card-title {
+    font-size: 28px;
+}
+
+.card-content,
+.card-time {
+    font-size: 16px;
+}
+
+.card-read-more {
+    font-size: 20px;
+}
+
+/* Content */ 
+
+
+
+.container  {
+    display: flex;
+}
