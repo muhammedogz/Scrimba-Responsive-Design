@@ -104,13 +104,14 @@ main {
         flex-direction: row;
     }
 
-    header {
+    header, 
+    main {
         width: 50%;
+        min-height: 100vh;
     }
 
     main {
-        width: 50%;
-        margin: auto 0;
+        
         border: none;
         padding: 2em;
     }
