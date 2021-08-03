@@ -30,7 +30,6 @@ header {
     padding: 0 .25em 1em;
     display: flex;
     flex-direction: column;
-
 }
 
 main {
@@ -44,6 +43,7 @@ main {
 
 .header-title {
     order: 0;
+    margin: 2em 0;
 }
 
 .header-second {
@@ -51,6 +51,7 @@ main {
     font-size: 1.3125rem;
     font-weight: 900;
     order: 1;
+    margin: 0;
 }
 
 .top-info {
