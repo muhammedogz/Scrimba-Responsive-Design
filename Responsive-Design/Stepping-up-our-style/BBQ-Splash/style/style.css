@@ -145,11 +145,16 @@ main > * {
     margin: .5em auto;
 }
 
+.register-form input {
+    font-family: inherit;
+    text-align: inherit;
+    border: 1px solid #404040;
+}
+
 .register-form input,
 .register-form button {
     width: 100%;
-    font-family: inherit;
-    text-align: inherit;
+    border-radius: 1em;
 }
 
 .register-btn {
