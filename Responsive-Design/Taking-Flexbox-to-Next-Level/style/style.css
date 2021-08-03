@@ -4,10 +4,12 @@
 
 body {
     margin: 0;
+    font-family: 'Blinker', sans-serif;
 }
 
-image {
-    max-width: 100%;
+h1,
+h2 {
+    margin: 0;
 }
 
 /* typography */
@@ -33,12 +35,47 @@ image {
 
 .card-main {
     border: 2px solid yellow;
-    background: #111d4a;
 }
 
 /* content */
 
 .container  {
+    width: 90%;
+    margin: 0 auto;
+    background: #111d4a;
+    color: #fff;
     display: flex;
-    
+    flex-direction: column;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 150px;
+}
+
+.card-main {
+    padding: 1em;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-read-more {
+    text-decoration: none;
+    background-color: #05cbe9;
+    text-align: center;
+    color: black;
+    padding: 1em;
+    transform: scale(1);
+    transition: all 300ms;
+    border-radius: 1.2em;
+}
+
+.card-read-more:hover,
+.card-read-more:focus {
+    color: #fff;
+    transform: scale(1.1);
+    background-color: #215d70;
 }
