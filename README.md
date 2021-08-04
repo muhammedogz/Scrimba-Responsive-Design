@@ -40,3 +40,9 @@ This module teaches advance flexbox techniques.
 
 - Card Component -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Taking-Flexbox-to-Next-Level/)
   
+### CSS Grid - The Ultimate Layout Tool
+
+This module teaches how and when to use CSS Grid.
+
+- CSS Grid -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/CSS-Grid/)
+  
