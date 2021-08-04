@@ -49,6 +49,10 @@ This module teaches advance flexbox techniques.
 
 This module teaches how and when to use CSS Grid.
 
+<<<<<<< HEAD
 - CSS Grid -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/CSS-Grid/)
 >>>>>>> 7a1434f... Update readme.md
+=======
+- CSS Grid -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/CSS-Grid/index.html)
+>>>>>>> 44850f0... Update readme.md
   
