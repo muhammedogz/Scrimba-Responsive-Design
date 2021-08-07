@@ -45,6 +45,7 @@ This module teaches advance flexbox techniques.
 >>>>>>> 813c9fa... Update readme.md
 =======
   
+<<<<<<< HEAD
 ### CSS Grid - The Ultimate Layout Tool
 
 This module teaches how and when to use CSS Grid.
@@ -60,3 +61,5 @@ This module teaches how and when to use CSS Grid.
   Use flex-box example with using grid.
 >>>>>>> 04b1e7c... Update readme.md
   
+=======
+>>>>>>> b6d745f... Update readme.md
