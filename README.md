@@ -54,5 +54,9 @@ This module teaches how and when to use CSS Grid.
 >>>>>>> 7a1434f... Update readme.md
 =======
 - CSS Grid -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/CSS-Grid/index.html)
+<<<<<<< HEAD
 >>>>>>> 44850f0... Update readme.md
+=======
+  Use flex-box example with using grid.
+>>>>>>> 04b1e7c... Update readme.md
   
