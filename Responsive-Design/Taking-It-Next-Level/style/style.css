@@ -3,6 +3,13 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    background-color: palegreen;
 }
+
+p {
+    margin: 0;
+}
+
+
+
