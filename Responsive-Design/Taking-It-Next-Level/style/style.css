@@ -2,14 +2,72 @@
     box-sizing: border-box;
 }
 
+/* background-color: #FFE600; */
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
-p {
+p,
+h1 {
     margin: 0;
 }
 
+header {
+    background-color: #000;
+}
 
+
+/* Layout */
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 5em;
+
+    border: 2px solid blue;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Navigation */
+
+
+h1 {
+    padding-top: 1em;
+    background-color: #FFE600;
+}
+
+nav ul {
+
+    list-style: none;
+    padding: 0;
+    margin-left: 1em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #FFE600;
+}
+
+.current-page {
+    border-bottom: 2px solid #FFE600;
+}
 
