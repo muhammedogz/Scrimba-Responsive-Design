@@ -33,33 +33,15 @@ Projects from this module
 In this module, Instructor teaches, how to use some uncovered CSS properties and create a webinar page.\
 
 - BBQ Splash Page -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Stepping-up-our-style/BBQ-Splash/index.html)
-<<<<<<< HEAD
-=======
 
 ### Taking Flexbox to the Next Level
 
 This module teaches advance flexbox techniques.
 
 - Card Component -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Taking-Flexbox-to-Next-Level/)
-<<<<<<< HEAD
->>>>>>> 813c9fa... Update readme.md
-=======
-  
-<<<<<<< HEAD
+
 ### CSS Grid - The Ultimate Layout Tool
 
 This module teaches how and when to use CSS Grid.
 
-<<<<<<< HEAD
-- CSS Grid -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/CSS-Grid/)
->>>>>>> 7a1434f... Update readme.md
-=======
 - CSS Grid -> [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/CSS-Grid/index.html)
-<<<<<<< HEAD
->>>>>>> 44850f0... Update readme.md
-=======
-  Use flex-box example with using grid.
->>>>>>> 04b1e7c... Update readme.md
-  
-=======
->>>>>>> b6d745f... Update readme.md
