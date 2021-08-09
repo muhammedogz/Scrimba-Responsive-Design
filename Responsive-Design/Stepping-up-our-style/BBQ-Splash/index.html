@@ -19,10 +19,12 @@
             <h2 class="main-title">Become a BBQ master!</h2>
             <p class="main-second">Register Today</p>
             <p class="main-content">BBQ isn't just standing in front of your grill with it on full blast and hoping for the best. It's an art! One way to speed up the process is to learn from the best. You can do just that by signing up for this free webinar!</p>
-            <form class="register-form">
-                <input type="email">
-                <input type="text">
-                <input type="submit">
+            <form action="index.html" method="POST" class="register-form">
+                <input class="fname" aria-label="first name" type="text" id="name" placeholder="first name" required>
+                <br>
+                <input class="email" aria-label="e mail" type="email" id="email" placeholder="email" required>
+                <br>
+                <button class="register-btn" type="submit">Register</button>
             </form>  
             <p class="fine-print">We'll never share your information without your permission</p>
         </main>
