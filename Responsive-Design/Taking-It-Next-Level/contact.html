@@ -38,11 +38,22 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <div class="about-us-content-second">
-                        <h2>We can do all sorts of great stuff</h2>
-                        <p>Honestly most people in this industry seem to be full of crap. We don't care what you've heard, or what others have told you, we get results and at the end of the day, what else matters? </p>
-                        <p>So sure, maybe we're a bit different from what you'd expect, but if you want to rank, market, and build your way to the top, we're the brothers for you.</p>
-                    </div>
+                    <form class="form" action="contact.html" method="POST">
+                        <div class="form-display">
+                            <label for="name">Name</label>
+                            <input class="form-name" aria-label="name" type="text" placeholder="name surname" id="name" required>
+                        </div>
+
+                        <div class="form-display">
+                            <label for="mail">Mail</label>
+                            <input class="form-mail" aria-label="e mail" type="email" placeholder="e mail" id="mail" required>
+                        </div>
+                        
+                        <label for="massage">Massage</label>
+                        <input class="form-massage" aria-label="massage" type="text" placeholder="massage" id="massage" required>
+                        <br>
+                        <button class="form-button" type="submit">Submit</button>
+                    </form>
                 </div>
             </section>
         </main>
