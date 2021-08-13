@@ -1,0 +1,57 @@
+.about-us {
+    text-align: center;
+    margin: 1em auto;
+}
+/* FFE600 */
+.about-us h1 {
+    display: inline-block;
+    background: linear-gradient(0deg,  rgba(255,230,0,1) 51%, rgba(255,255,255,1) 53%);
+    padding-right: .5em;
+
+}
+
+.about-us-image img {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    border-right: 4px solid #FFE600;
+    border-bottom: 4px solid #FFE600;
+}
+
+.about-us-content h2:after {
+    content: "";
+    display: block;
+    width: 3.5em;
+    margin: 0 left;
+    border-bottom: 2px solid #FFE600;
+    margin-top: .3em;
+}
+
+main {
+    padding-bottom: 4em;
+}
+
+
+@media (min-width: 680px) {
+    .about-us:after {
+        content: "";
+        display: block;
+        width: 8em;
+        margin: 1em auto;
+        border-bottom: 1px solid #000;
+    }
+
+    .about-us-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us-image {
+        width: 30%;
+        margin-top: 1em
+    }
+
+    .about-us-content {
+        width: 60%;
+    }
+}

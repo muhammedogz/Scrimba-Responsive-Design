@@ -62,14 +62,12 @@ header {
 .container-nav {
     justify-content: flex-start;
     align-items: center;
-}
-
-h1 {
-    padding-top: 1em;
-    background-color: #FFE600;
+    text-transform: lowercase;
 }
 
 .site-title {
+    padding-top: 1em;
+    background-color: #FFE600;
     font-size: 1.5rem;
 }
 
