@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+p {
+    font-weight: 400;
+}
+
 img {
     width: 100%;
     display: block;
@@ -64,7 +68,7 @@ h1 {
 }
 
 .title-and-symbol {
-    font-weight: 100;
+    font-weight: 300;
 }
 
 nav ul {
@@ -168,3 +172,40 @@ nav a:focus {
     width: 25%;
     margin: 0 auto;
 }
+
+/* footer */
+
+footer {
+    background-color: #ebebeb;
+}
+
+.footer-info {
+    padding: 2em;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-info a {
+    color: #000;
+    margin: .3em;
+}
+
+.footer-info a:hover,
+.footer-info a:focus {
+    color: blue;
+}
+
+.footer-info h2 {
+    font-weight: 200;
+}
+
+.footer-info p,
+.footer-info h2 span {
+    font-weight: 100;
+}
+
+.footer-info p {
+    margin-bottom: 3em;
+}
+
