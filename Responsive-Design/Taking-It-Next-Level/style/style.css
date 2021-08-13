@@ -9,12 +9,21 @@ body {
     margin: 0;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 p,
 h1 {
     margin: 0;
 }
 
 header {
+    background-color: #000;
+}
+
+main {
     background-color: #000;
 }
 
@@ -92,3 +101,40 @@ nav a:focus {
 
 
 /* Main Section */
+
+.intro {
+    background-image: url(../image/hero-bg.jpg);
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    padding: 3em 3em 3em 1.7em;
+    color: #fff;
+}
+
+.intro div {
+    width: 60%;
+    margin: 0 0;
+}
+
+.intro span {
+    color: #FFE600;
+}
+
+.intro a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FFE600;
+    color: #000;
+    font-weight: 700;
+    padding: .8em;
+    margin-top: 2em;
+    transform: scale(1);
+    transition: transform 500ms;
+    transition: color 500ms;
+}
+
+.intro a:hover,
+.intro a:focus {
+    transform: scale(1.1);
+    color: #fff;
+}
