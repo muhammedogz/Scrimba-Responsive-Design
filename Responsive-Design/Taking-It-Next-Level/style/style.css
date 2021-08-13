@@ -18,6 +18,10 @@ header {
     background-color: #000;
 }
 
+.title-and-symbol {
+    font-weight: 100;
+}
+
 
 /* Layout */
 
@@ -58,13 +62,17 @@ nav li {
 }
 
 nav a {
+    display: block;
     text-decoration: none;
     color: #fff;
+    transform: scale(1);
+    transition: all 250ms;
 }
 
 nav a:hover,
 nav a:focus {
     color: #FFE600;
+    transform: scale(1.2);
 }
 
 .current-page {
