@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -22,6 +23,19 @@ p,
 h1 {
     margin: 0;
 }
+
+/* typography */
+
+h1 {
+    font-size: 3rem;
+}
+
+h2,
+.intro {
+    font-size: 1.125rem;
+}
+
+
 
 header {
     background-color: #000;
@@ -43,16 +57,6 @@ header {
 .container-flex {
     display: flex;
     flex-direction: column;
-}
-
-@media (min-width: 680px) {
-    .container {
-        margin: 0 5em;
-        max-width: 1400px;
-    }
-    .container-flex {
-        flex-direction: row;
-    }
 }
 
 /* Navigation */
@@ -88,6 +92,7 @@ nav a {
     display: block;
     text-decoration: none;
     color: #fff;
+    font-size: .875rem;
     transform: scale(1);
     transition: all 250ms;
 }
@@ -103,7 +108,7 @@ nav a:focus {
 }
 
 
-/* Main Section */
+/* Intro Section */
 
 .intro {
     background-image: url(../image/hero-bg.jpg);
@@ -129,6 +134,7 @@ nav a:focus {
     background-color: #FFE600;
     color: #000;
     font-weight: 700;
+    font-size: .875rem;
     padding: .8em;
     margin-top: 2em;
     transform: scale(1);
@@ -148,8 +154,6 @@ nav a:focus {
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     padding: 1em;
 }
 
@@ -162,14 +166,12 @@ nav a:focus {
     margin: .5em 0 2em 0;
 }
 
-
-
 .secondary h2:after {
     content: "";
     padding: .1em;
     display: block;
     border-bottom: 2px solid #FFE600;
-    width: 25%;
+    width: 3em;
     margin: 0 auto;
 }
 
@@ -209,3 +211,58 @@ footer {
     margin-bottom: 3em;
 }
 
+/* media */
+
+@media (min-width: 680px) {
+    /* layout */
+
+    .container {
+        margin: 0 auto;
+        max-width: 1400px;
+    }
+    .container-flex {
+        flex-direction: row;
+    }
+
+    /* intro */
+
+    .intro {
+        padding-bottom: 10em;
+    }
+
+    .intro div {
+        width: 50%;
+    }
+    
+    /* secondary */
+
+    .secondary {
+        width: 100%;
+    }
+
+    .secondary div {
+        margin: 2em;
+    }
+
+    /* footer */
+
+    .footer-info {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        padding: 1em;
+        justify-content: space-around;
+        text-align: left;
+    }
+
+    .footer-text {
+        order: 1;
+        width: 40%;
+    }
+
+    .footer-icons {
+        width: 10%;
+        order: 2;
+        align-self: center;
+    }
+}
