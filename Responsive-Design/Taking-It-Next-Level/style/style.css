@@ -50,8 +50,6 @@ header {
 .container {
     width: 90%;
     margin: 0 auto;
-
-    border: 2px solid blue;
 }
 
 .container-flex {
