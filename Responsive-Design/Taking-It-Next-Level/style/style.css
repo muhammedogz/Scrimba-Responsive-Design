@@ -69,6 +69,10 @@ h1 {
     background-color: #FFE600;
 }
 
+.site-title {
+    font-size: 1.5rem;
+}
+
 .title-and-symbol {
     font-weight: 300;
 }
