@@ -1,0 +1,29 @@
+.about-us {
+    text-align: center;
+    margin: 1em auto;
+}
+/* FFE600 */
+.about-us h1 {
+    display: inline-block;
+    background: linear-gradient(0deg,  rgba(255,230,0,1) 51%, rgba(255,255,255,1) 53%);
+    padding-right: .5em;
+
+}
+
+
+
+
+.about-us-image img {
+    width: 100%;
+}
+
+
+@media (min-width: 680px) {
+    .about-us:after {
+        content: "";
+        display: block;
+        width: 50px;
+        margin: 0 auto;
+        border-bottom: 1px solid #000;
+    }
+}
