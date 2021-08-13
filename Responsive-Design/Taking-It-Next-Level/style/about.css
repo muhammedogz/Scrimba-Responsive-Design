@@ -36,8 +36,22 @@ main {
     .about-us:after {
         content: "";
         display: block;
-        width: 50px;
-        margin: 0 auto;
+        width: 8em;
+        margin: 1em auto;
         border-bottom: 1px solid #000;
+    }
+
+    .about-us-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-us-image {
+        width: 30%;
+        margin-top: 1em
+    }
+
+    .about-us-content {
+        width: 60%;
     }
 }
