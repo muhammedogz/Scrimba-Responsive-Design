@@ -1,0 +1,34 @@
+@media (min-width: 680px) {
+    .about-us-image {
+        width: 30%;
+    }
+
+    .contact-form {
+        width: 65%;
+    }
+
+    .about-us-content {
+        margin-left: 1em;
+        width: 100%;
+    }
+
+    .form-display {
+        display: inline-block;
+        margin-right: 8em;
+    }
+
+    label {
+        display: block;
+        margin: .5em 0;
+    }
+
+    input {
+        padding-right: 50%;
+    }
+
+    
+    .form-massage {
+        padding: 0 45% 10em 0;
+        
+    }
+}
