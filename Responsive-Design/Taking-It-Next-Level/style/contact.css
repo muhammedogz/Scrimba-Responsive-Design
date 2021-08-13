@@ -1,0 +1,14 @@
+@media (min-width: 680px) {
+    .about-us-image {
+        width: 30%;
+    }
+
+    .contact-form {
+        width: 60%;
+    }
+
+    .about-us-content {
+        margin-left: 1em;
+        width: 100%;
+    }
+}
