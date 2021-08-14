@@ -1,8 +1,4 @@
-# Scrimba-Projects
-
-Projects from Scrimba Courses.
-
-## Responsive Design Course
+# Responsive Design Course
 
 This course also part of the front-end career path.
 
