@@ -44,7 +44,7 @@ This module teaches advance flexbox techniques.
 
 This module encourage to create a full responsive web page.\
 Instructor creates this page with CSS Grid.\
-Firstly, I created with Flexbox.
+I created with Flexbox.
 
 - Marketing Agency (with Flexbox) [live demo](https://muhammedogz.github.io/Scrimba-Projects/Responsive-Design/Taking-It-Next-Level/Flexbox/index.html)
   
