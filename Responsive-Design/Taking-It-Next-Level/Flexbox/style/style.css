@@ -273,6 +273,7 @@ footer {
 
     nav ul {
         flex-direction: row;
+        margin-left: 2em;
     }
 
     nav li  {
