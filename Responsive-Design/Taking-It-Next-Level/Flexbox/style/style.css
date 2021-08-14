@@ -139,7 +139,7 @@ nav a:focus {
     align-self: flex-end;
     cursor: pointer;
     font-size: 3rem;
-    padding: .3em;
+    padding: .1em;
     margin-top: .15em;
     position: absolute;
     z-index: 1;
