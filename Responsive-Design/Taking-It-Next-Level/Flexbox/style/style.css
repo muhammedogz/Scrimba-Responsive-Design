@@ -75,6 +75,13 @@ header {
     font-weight: 300;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -83,6 +90,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 nav li {
